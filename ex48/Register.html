@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Registration - Đoàn Quốc Vinh</title>
+</head>
+<body style="background-color: lightblue;">
+    <div align='center'>
+        <img src='images/Jackson.gif'Logo' width='400' height='100'>
+    </div>
+    <h1 align='center'>Registration Form</h1>
+    <p align="center">Register your Jackson Eclectronics product here</p>
+    <form>
+        <table align="center" border="0" cellpadding="5">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fname" id="fname"></td>
+                <td>Last Name:</td>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr>
+            <tr>
+                <td>Address #1:</td>
+                <td colspan="3"><input type="text" name="address1" id="address1" size="50"></td>
+            </tr>
+            <tr>
+                <td>Address #2:</td>
+                <td colspan="3"><input type="text" name="address2" id="address2" size="50"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" id="city"></td>
+                <td>State:</td>
+                <td><input type="text" name="state" id="state" size="5"> 
+                    Zip: <input type="text" name="zip" id="zip" size="8"></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td colspan="3"><input type="text" name="country" id="country" value="United States"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+            <tr>
+                <td>Product:</td>
+                <td colspan="3">
+                    <select name="product" id="product">
+                        <option>ScanMaster</option>
+                        <option>Printer</option>
+                        <option>Monitor</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date Purchased:</td>
+                <td colspan="3"><input type="text" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>Serial #:</td>
+                <td colspan="3"><input type="text" name="serial" id="serial"></td>
+            </tr>
+            <tr>
+                <td>Used for:</td>
+                <td colspan="3">
+                    <input type="radio" name="usedfor" value="Home" id="1"><label for="1">Home</label>
+                    <input type="radio" name="usedfor" value="Business" id="2"><label for="2">Business</label>
+                    <input type="radio" name="usedfor" value="Government" id="3"><label for="3">Government</label>
+                    <input type="radio" name="usedfor" value="Educational" id="4"><label for="4">Educational Institution</label>
+                    <input type="radio" name="usedfor" value="Other" id="5"><label for="5">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>System (check all that apply):</td>
+                <td colspan="3">
+                    <input type="checkbox" name="system" value="Windows" id="6"> <label for="6">Windows</label>
+                    <input type="checkbox" name="system" value="Macintosh" id="7"> <label for="7">Macintosh</label>
+                    <input type="checkbox" name="system" value="UNIX" id="8"> <label for="8">UNIX</label>
+                    <input type="checkbox" name="system" value="Other" id="9"> <label for="9">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+            <tr>
+                <td>Comments?</td>
+                <td colspan="3"><textarea name="comments" rows="5" cols="50"></textarea></td>
+            </tr>
+        </table>
+        <center>
+            <input type="submit" value="Click to register">
+            <input type="reset" value="Click to cancel">
+        </center>
+    </form>
+</body>
+</html>
