@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Enterprise - Đoàn Quốc Vinh</title>
+</head>
+<body style="background-color:rgb(173, 224, 224);">
+    <h1 align="center">
+        <img src="DeLong.jpg" alt="Logo" width="400" height="100">
+    </h1>
+    <h1>Travel Expense Report</h1>
+    <hr/>
+    <ol type="1">
+        <li>
+            <label for="fname">First Name:</label><input type="text" name="fname" id="fname">
+            <label for="lname">Last Name:</label><input type="text" name="lname" id="lname">
+        </li>
+        <br/>
+        <li>
+            <label for="1">Social Sercurity Number:</label><input type="text" name="1" id="1">
+        </li>
+        <br/>
+        <li>
+            <label for="department">Department:</label><input type="text" name="department" id="department" size="50">
+        </li>
+        <br/>
+        <li>
+            
+            <label for="db">Describe the purpose of your trip:</label>
+        </li>
+        <br/>
+        <textarea type="text" name="db" id="db" size="50"></textarea>
+        <li>
+            Itemize your Travel expenses
+            <br/>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr style="font-weight: bold;">
+                        <td>Date</td>
+                        <td>Desciption</td>
+                        <td>Category</td>
+                        <td>Amount</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="date1" id="date1" placeholder="mm/dd/yy"></td>
+                        <td><input type="text" name="desc1" id="desc1"></td>
+                        <td>
+                            <select name="category1" id="category1">
+                                <option>Meal</option>
+                                <option>No Meal</option>
+                            </select>
+                        </td>
+                        <td><input type="text" name="amount1" id="amount1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="date1" id="date1" placeholder="mm/dd/yy"></td>
+                        <td><input type="text" name="desc1" id="desc1"></td>
+                        <td>
+                            <select name="category1" id="category1">
+                                <option>Meal</option>
+                                <option>No Meal</option>
+                            </select>
+                        </td>
+                        <td><input type="text" name="amount1" id="amount1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="date1" id="date1" placeholder="mm/dd/yy"></td>
+                        <td><input type="text" name="desc1" id="desc1"></td>
+                        <td>
+                            <select name="category1" id="category1">
+                                <option>Meal</option>
+                                <option>No Meal</option>
+                            </select>
+                        </td>
+                        <td><input type="text" name="amount1" id="amount1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="date1" id="date1" placeholder="mm/dd/yy"></td>
+                        <td><input type="text" name="desc1" id="desc1"></td>
+                        <td>
+                            <select name="category1" id="category1">
+                                <option>Meal</option>
+                                <option>No Meal</option>
+                            </select>
+                        </td>
+                        <td><input type="text" name="amount1" id="amount1"></td>
+                    </tr>
+                </tbody> 
+            </table>
+        <li>
+            <label for="receipt">Have you submitted your receipts?</label>
+            <input type="radio" name="receipt" value="Yes" id="yes"><label for="yes">Yes</label>
+            <input type="radio" name="receipt" value="No" id="no"><label for="no">No</label>
+        </li>
+        <br/>
+        <button type="submit" id="submit">Submit Travel expenses</button>
+        <button type="reset" id="reset">Reset</button>
+        <p>Questions? Contact Debbie Larson in Accounting (ext. 2150</p>
+    </ol>
+</body>
+</html>
